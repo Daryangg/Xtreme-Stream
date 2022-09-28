@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/assets/img/favicon.ico" type="image/ico">
+
+        <link rel="stylesheet" href="/assets/vendor/node_modules/css/choices.min.css">
+
+        <link rel="stylesheet" href="/assets/vendor/node_modules/css/simplebar.min.css">
+         <!--swiper-->
+         <link rel="stylesheet" href="/assets/vendor/node_modules/css/swiper-bundle.min.css">
+        <!--Icons-->
+        <link href="/assets/fonts/boxicons/css/boxicons.min.css" rel="stylesheet">
+         <!--Google fonts-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+        <!-- Main CSS -->
+        <link href="/assets/css/theme-shop.min.css" rel="stylesheet">
+
+        <!--:Simplebar css ()-->
+        <style type="text/css">
+            .simplebar-track.simplebar-vertical {
+                width: 7px;
+            }
+
+            .simplebar-scrollbar:before {
+                background: currentColor;
+            }
+
+        </style>
+        <title>Shop - Armchairs</title>
+    </head>
+
+    <body>
+        <!--:Preloader Spinner-->
+        <div class="spinner-loader bg-gradient-secondary text-white">
+            <div class="spinner-border text-primary" role="status">
+            </div>
+            <span class="small d-block ms-2">Loading...</span>
+        </div>
+        <!--:Header Start-->
+        <header class="z-index-fixed pt-3 header-absolute-top header-transparent header-boxed ">
+
+            <div class="navbar-boxed">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light rounded-lg-4">
+                        <a style="color: #fdbac0;" class="navbar-brand" href="/">
+                            <span style="color: red;">X</span>treme Stream
+                        </a>
+                        <div class="d-flex align-items-end navbar-no-collapse-items order-lg-last">
+                            <button class="navbar-toggler order-last" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <i></i>
+                                </span>
+                            </button>
+                          
+                            <div class="nav-item me-4" >
+                                <a href="#offcanvasCart" data-bs-toggle="offcanvas"
+                                    class="nav-link lh-1 ">
+                                    <i>Contact us </i>
+                                   
+                                </a>
+                            </div>
+                        
+                        </div>
+                        <div class="collapse navbar-collapse" id="mainNavbarTheme">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item dropdown me-lg-3">
+                                    <a class="nav-link " href="/" role="button"
+                                       >
+                                        Home
+                                    </a>
+                            
+                                </li>
+                             <li class="nav-item dropdown me-lg-3">
+                                <a class="nav-link active " href="#products" role="button">
+                                     Products
+                                 </a>
+                            </li>
+
+
+                               
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <!--:Offcanvas end-->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCart">
+            <div class="border-bottom offcanvas-header align-items-center justify-content-between">
+                <h5 class="mb-0">Contact US</h5>
+                <button type="button" class="btn-close text-reset p-0 m-0 width-3x height-3x flex-center ms-auto"
+                    data-bs-dismiss="offcanvas" aria-label="Close">
+                    <button type="button"
+                        class="btn-close shadow-none text-reset p-0 m-0 width-3x height-3x flex-center ms-auto"
+                        data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="bx bx-x fs-4"></i>
+                    </button>
+            </div>
+            <div class="offcanvas-body pt-5 ">
+                <ul>
+                    <li class="mt-6 mb-6">
+                        Telephone number:     
+                        <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="tel: 9544441334">
+                            <i class="bi bi-whatsapp">(954)-444-1434</i>
+                        </a>
+                    </li>
+                    
+                    <li class="mt-6 mb-6">
+                        Email address:
+                        <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank"  href="mailto:extremestream@gmail.com">
+                            <i class="bi bi-mailbox">extremestream@gmail.com</i>
+                        </a>
+                    </li>
+                    <li class="mt-6 mb-6">
+                        Facebook :
+                        <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="http://www.facebook.com/xtremestreamshop"> 
+                            <em class="bi bi-facebook"> http://www.facebook.com/xtremestreamshop </em>
+                        </a>
+                    </li>
+                    <li class="mt-6 mb-6">
+                        Instagram :
+                        <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="http://www.instagram.com/xtreme_stream_shop"> 
+                            <em class="bi bi-instagram"> http://www.instagram.com/xtremestreamshop </em>
+                        </a>
+                    </li>
+                    <li class="mt-6 mb-6">
+                        Whatsapp:
+                        <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="https://wa.me/9544441334" >
+                            <i class="bi bi-whatsapp"> (954)-444-1334</i> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="offcanvas-footer p-4 border-top">
+                <ul class="list-unstyled mb-0">
+
+                    <li class="pb-2 d-grid">
+                        <a href="https://wa.me/9544441334" target="_blank" class="btn btn-secondary btn-hover-arrow"><span>Oreder Now!!</span></a>
+                    </li>
+            
+                </ul>
+            </div>
+        </div>
+
+        <!--Main content-->
+        <main>
+            <section class="position-relative bg-white">
+                <div class="container py-9 py-lg-11 position-relative">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6 col-xl-7 col-md-8 mx-auto mx-lg-0 mb-5 mb-lg-0">
+                            <div class="row g-1 justify-content-center">
+                                <div class="col-2">
+
+                                         <!--Thumbnails for main slider(just above)-->
+                                         <div class="swiper-container swiper-thumbnails overflow-hidden">
+                                            <!-- Additional required wrapper -->
+                                            <div class="swiper-wrapper d-flex flex-column">
+                                                <!-- Slides -->
+                                                <div class="swiper-slide w-100">
+                                                    <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/s2_orig.png" alt="" class="w-100 h-auto">
+                                                </div>
+                                                <!-- Slides -->
+                                                <div class="swiper-slide w-100">
+                                                    <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/s3_orig.png" alt="" class="w-100 h-auto">
+                                                </div>
+                                                <!-- Slides -->
+                                                <div class="swiper-slide w-100">
+                                                    <img  src="http://www.gdomino.com/uploads/5/8/0/1/58011957/s1_orig.png" alt="" class="w-50 h-auto">
+                                                </div>                                      
+
+                                            </div>
+                                        </div>
+                                </div>
+                                    <div class="col-10">
+                                        <!--Thumbnails main slider-->
+                                        <div class="swiper-container overflow-hidden position-relative swiper-thumbnails-main">
+                                            <!-- Additional required wrapper -->
+                                            <div class="swiper-wrapper ">
+                                                <!-- Slides -->
+                                                <div class="swiper-slide col-lg-5">
+                                                    <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/s2_orig.png" alt="" class="img-fluid w-80">
+                                                </div>
+                                                <!-- Slides -->
+                                                <div class="swiper-slide align-items-center ">
+                                                    <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/s3_orig.png" alt="" class="img-fluid w-80">
+                                                </div>
+                                                <!-- Slides -->
+                                                <div class="swiper-slide">
+                                                    <img  src="http://www.gdomino.com/uploads/5/8/0/1/58011957/s1_orig.png" alt="" class="w-50 h-auto">
+                                                </div>
+                                               
+                                            </div>
+                                            <!-- Swiper Navigation buttons (Remove it if you have to) -->
+                                            <div class="swiper-button-prev swiperThumb-prev text-white bg-dark">
+                                            </div>
+                                            <div class="swiper-button-next  swiperThumb-next text-white bg-dark">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <!--/.col-->
+                        <div class="col-md-8 mx-auto col-lg-6 col-xl-5 mx-xl-auto">
+                           
+                            <!-- Product Description -->
+                            <div class="mb-3 pb-3 border-bottom">
+                                <div class="mb-3">
+                                    <h2 class="mb-4 display-5 font-serif">Authentic Handmade Cuban Domino Table</h2>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <p class="fs-5 mb-0">Single tube: $220</p>
+                                            </br>
+                                            <p class="fs-5 mb-0">Doble tube: $245</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <p class="mb-4">
+                                   <ul> 
+                                    <li> Traditional Cuban Armchair made with aluminum structure and the seat and back surface with resistant plastic rope (Swiss)
+
+                                    </li>
+                                    
+                                    <li> Approximate weight: </br>
+                                                ​22 - 23 Pounds
+                                    </li>
+                                    <li> Seating surface is made with (plastic rope (Swiss) well resis
+                                    </li>
+                                    <li> Structure of aluminium tubular profiles</li>
+                                   </p>
+                                </ul>
+                                    <span class="text-danger"> 50 Left in Stock</span>
+                                    <div class="text-end">
+                                        
+                                        <a href="#offcanvasCart" data-bs-toggle="offcanvas" class=" btn text-end btn-outline-secondary rounded-pill">Claim yours!!
+                                            </a>
+                                    </div> 
+                            </div>
+                            
+                           
+
+                          
+
+                        </div>
+                        <!--/.col-->
+                    </div>
+                </div>
+            </section>
+            
+            <section class="bg-white position-relative overflow-hidden">
+                <div class="container py-9 py-lg-11 position-relative">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 border-end-md border-light text-center mb-7 mb-md-0">
+                            <div class="mb-3">
+                                <i class="bx bx-car fs-1"></i>
+                            </div>
+                            <h6 class="mb-0">Fast Delivery</h6>
+                        </div>
+                        <div class="col-md-4 border-end-md border-light text-center mb-7 mb-md-0">
+                            <div class="mb-3">
+                                <i class="bx bx-purchase-tag fs-1"></i>
+                            </div>
+                            <h6 class="mb-0">100% Handpicked</h6>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="mb-3">
+                                <i class="bx bx-package fs-1"></i>
+                            </div>
+                            <h6 class="mb-0">Assured Quality</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <footer class="position-relative bg-dark text-white overflow-hidden">
+            <div class="container pt-9 pt-lg-11 pb-6 position-relative">
+                <div class="row">
+                    <div class="col-6 col-lg-3 col-xl-2 order-lg-2 ms-lg-auto mb-6">
+                        <h6 class="mb-4">Account</h6>
+                        <!-- nav -->
+                        <ul class="nav flex-column mb-0">
+                            <li class="nav-item"><a class="nav-link" href="#offcanvasCart" data-bs-toggle="offcanvas">Placing an order</a></li>
+                        </ul>
+                        <!-- /.nav -->
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-xl-2 order-lg-3 ms-lg-auto mb-6">
+                        <h6 class="mb-4">Company</h6>
+
+                        <ul class="nav flex-column mb-0">
+                            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                           
+                            <li class="nav-item"><a class="nav-link" href="#offcanvasCart" data-bs-toggle="offcanvas">Contact</a></li>
+                            <li class="nav-item d-flex justify-content-between align-items-center">
+                                <a class="nav-link" href="#!">Help center
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /.nav -->
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 col-xl-2 ms-lg-auto order-lg-4 mb-6">
+                        <h6 class="mb-4">Top Products</h6>
+                        <ul class="nav flex-column mb-0">
+                            <li class="nav-item"><a class="nav-link" href="/DominoTable.html">Domino Table</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#!">Double tube plastic rope armchairs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#!">Single tube plastic rope armchairs</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="#!">Plastic rope table</a></li> -->
+                           
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 order-lg-1 mb-6">
+                        <div class="d-flex align-items-md-stretch flex-column h-100">
+                            <div class="flex-grow-1 d-flex flex-column">
+                                <small class="d-block mb-3">
+                                    Follow US!!
+                                </small>
+                                <div class="mb-4">
+                                    <a href="#!" class="btn btn-outline-white btn-rise">
+                                        <div class="btn-rise-bg bg-white"></div>
+                                        <div class="btn-rise-text align-items-center">
+                                            <i class="bx bxl-instagram me-2 "> Follow us on Instagram </i>    
+                                       </div>
+                                    </a>
+                                    <a href="#!" class="btn btn-outline-white btn-rise">
+                                        <div class="btn-rise-bg bg-white"></div>
+                                        <div class="btn-rise-text align-items-center">                                        
+                                            <i class="bx bxl-facebook me-2 "> Follow us on Facebook</i>                                  
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Copyright -->
+                            <p class="small text-muted mb-0">© SiSmo.LLC all rights reserve</p>
+                            <!-- End Copyright -->
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-transparent border-top border-white opacity-25 mb-6 mt-0">
+                <div class="row align-items-md-center">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <!--:payment options-->
+                        <div class="d-flex justify-content-start">
+
+                            <div class="d-block me-2 my-1">
+                                <img src="assets/img/payment/american_express.svg" alt="">
+                            </div>
+                            <div class="d-block me-2 my-1">
+                                <img src="assets/img/payment/paypal.svg" alt="paypal">
+                            </div>
+                            <div class="d-block me-2 my-1">
+                                <img src="assets/img/payment/rupay.svg" alt="rupay">
+                            </div>
+                            <div class="d-block my-1">
+                                <img src="assets/img/payment/visa.svg" alt="visa">
+                            </div>
+                        </div>
+                        <!--:/payment options-->
+                    </div>
+
+                    <div class="col-md-2 col-xl-4 mb-3 mb-md-0">
+                        <!-- Links -->
+                        <ul class="list-inline small mb-0">
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="http://instagram.com/SismoStore">
+                                    <i class="bx bxl-instagram fs-4"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="http://facebook.com/SismoStore">
+                                    <i class="bx bxl-facebook fs-4"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="http://twitter.com/SismoStore">
+                                    <i class="bx bxl-twitter fs-4"></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <!-- End Links -->
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-4 text-md-end">
+                        <!-- Links -->
+                        <ul class="list-inline small mb-0">
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="#!">Privacy &amp; Policy</a>
+                            </li>
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="#!">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                        <!-- End Links -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/footer-->
+
+        <!-- :Back to top -->
+        <a href="#top"
+            class="position-fixed toTop d-none d-sm-flex btn btn-light rounded-circle p-0 flex-center width-4x height-4x z-index-fixed end-0 bottom-0 mb-3 me-3">
+            <i class="bx bxs-up-arrow align-middle lh-1"></i>
+        </a>
+
+
+         <!-- scripts -->
+         <script src="/assets/js/theme.bundle.js"></script>
+         <script src="/assets/vendor/node_modules/js/gsap.min.js"></script>
+        
+
+        <!--scripts-->
+        <script src="/assets/vendor/node_modules/js/choices.min.js"></script>
+        <script src="/assets/vendor/node_modules/js/swiper-bundle.min.js"></script>
+        <script>
+            //Swiper thumbnail demo
+            var swiperThumbnails = new Swiper(".swiper-thumbnails", {
+                spaceBetween: 8,
+                    slidesPerView: 4,
+                    freeMode: true,
+                    watchSlidesProgress: true,
+            });
+            var swiperThumbnailsMain = new Swiper(".swiper-thumbnails-main", {
+            spaceBetween: 0,
+            navigation: { nextEl: ".swiperThumb-next", prevEl: ".swiperThumb-prev" },
+            thumbs: { swiper: swiperThumbnails }
+            });
+                        var el = document.querySelectorAll("[data-choices]");
+                        el.forEach(e => {
+                            const t = {
+                                ...e.dataset.choices ? JSON.parse(e.dataset.choices) : {}, ...{
+                                    classNames: {
+                                        containerInner: e.className,
+                                        input: "form-control",
+                                        inputCloned: "form-control-xs",
+                                        listDropdown: "dropdown-menu",
+                                        itemChoice: "dropdown-item",
+                                        activeState: "show",
+                                        selectedState: "active"
+                                    }
+                                }
+                            }
+                            new Choices(e, t)
+                        }
+                        );
+        </script>
+        <script src="/assets/vendor/node_modules/js/simplebar.min.js"></script>
+    </body>
+
+</html>

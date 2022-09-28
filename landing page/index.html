@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en" xmlns:layout="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/assets/img/favicon.ico" type="image/ico">
+
+        <!--swiper-->
+        <link rel="stylesheet" href="/assets/vendor/node_modules/css/swiper-bundle.min.css">
+        <!--Icons-->
+        <link href="/assets/fonts/boxicons/css/boxicons.min.css" rel="stylesheet">
+         <!--Google fonts-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+        <!-- Main CSS -->
+        <link href="/assets/css/theme-shop.min.css" rel="stylesheet">
+
+        <title>Xtreme Stream Shop</title>
+    </head>
+
+    <body>
+        <!--:Preloader Spinner-->
+        <div class="spinner-loader bg-gradient-secondary text-white">
+            <div class="spinner-border text-primary" role="status">
+            </div>
+            <span class="small d-block ms-2">Loading...</span>
+        </div>
+        <!--:Header Start-->
+        <header class="z-index-fixed pt-3 header-absolute-top header-transparent header-boxed ">
+
+            <div class="navbar-boxed">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-dark rounded-lg-4">
+                        <a style="color: #fdbac0;" class="navbar-brand" href="/">
+                            <span style="color: red;">X</span>treme Stream
+                        </a>
+                        <div class="d-flex align-items-end navbar-no-collapse-items order-lg-last">
+                            <button class="navbar-toggler order-last" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <i></i>
+                                </span>
+                            </button>
+                          
+                            <div class="nav-item me-4" >
+                                <a href="#offcanvasCart" data-bs-toggle="offcanvas"
+                                    class="nav-link lh-1 ">
+                                    <i>Contact us </i>
+                                   
+                                </a>
+                            </div>
+                        
+                        </div>
+                        <div class="collapse navbar-collapse" id="mainNavbarTheme">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item dropdown me-lg-3">
+                                    <a class="nav-link  active" href="/" role="button"
+                                       >
+                                        Home
+                                    </a>
+                            
+                                </li>
+                             <li class="nav-item dropdown me-lg-3">
+                                <a class="nav-link  " href="#products" role="button">
+                                     Products
+                                 </a>
+                            </li>
+
+
+                               
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+       <!--:Offcanvas end-->
+       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCart">
+        <div class="border-bottom offcanvas-header align-items-center justify-content-between">
+            <h5 class="mb-0">Contact US</h5>
+           
+                <button type="button"
+                    class="btn-close shadow-none text-reset p-0 m-0 width-3x height-3x flex-center ms-auto"
+                    data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="bx bx-x fs-4"></i>
+                </button>
+        </div>
+        <div class="offcanvas-body pt- ">
+            <ul>
+                <li class="mt-6 mb-6">
+                    Telephone number:     
+                    <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="tel: 9544441334">
+                        <i class="bi bi-whatsapp">(954)-444-1434</i>
+                    </a>
+                </li>
+                
+                <li class=" mb-6">
+                    Email address:
+                    <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank"  href="mailto:extremestream@gmail.com">
+                        <i class="bi bi-mailbox">extremestream@gmail.com</i>
+                    </a>
+                </li>
+                
+                <li class="mb-6">
+                    Instagram :
+                    <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="http://www.instagram.com/xtreme_stream_shop"> 
+                        <em class="bi bi-instagram"> http://www.instagram.com/xtremestreamshop </em>
+                    </a>
+                </li>
+                <li class="mb-6">
+                    Whatsapp:
+                    <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="https://wa.me/9544441334" >
+                        <i class="bi bi-whatsapp"> (954)-444-1334</i> 
+                    </a>
+                </li>   
+                <li >
+                    Purchase Using:
+                  <dl class="text-center">
+                    <dt><a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="#"> 
+                        <em class="bi bi-instagram">  Paypal </em>
+                    </a>
+                    </dt>
+                    </br>
+                    <dt> <a class="link-underline text-dark font-serif fw-semibold fs-6" target="_blank" href="#"> 
+                        <em class="bi bi-instagram"> Zelle </em>
+                    </a></dt>
+                </dl>
+                </li>                
+            </ul>
+        </div>
+        <div class="offcanvas-footer p-4 border-top">
+            <ul class="list-unstyled mb-0">
+
+                <li class="pb-2 d-grid">
+                    <a href="https://wa.me/9544441334" target="_blank" class="btn btn-secondary btn-hover-arrow"><span>Oreder Now!!</span></a>
+                </li>
+        
+            </ul>
+        </div>
+    </div>
+        <main>
+
+            <section class="position-relative overflow-hidden ">
+                <div class="jarallax bg-dark h-100 w-100 position-absolute start-0 top-0 "
+                data-jarallax-video="https://vimeo.com/167338879">
+                </div>
+        
+                <!--:Swiper classic -->
+                <div class="swiper-container swiper-classic overflow-hidden position-relative vh-100">
+                    <div class="swiper-wrapper">
+                        <!--:Slide-->
+                        <div class="swiper-slide" >
+                            <div class="bg-dark position-absolute start-0 top-0 w-100 h-100 opacity-25"></div>
+                            <!--:container-->
+                            <div class="container h-100 text-white position-relative z-index-1">
+                                <div class="row d-flex align-items-center h-100">
+                                    <div class="col-xl-10 mx-auto text-center">
+                                        <!--:slider layers-->
+                                        <ul class="carousel-layers list-unstyled mb-0 pt-lg-9">
+                                            <li data-carousel-layer="fade-start">
+                                                <h2 class="display-1 mb-3">
+                                                    Domino Table
+                                                </h2>
+                                            </li>
+                                            <li data-carousel-layer="fade-end">
+                                                <p class="lead mb-4 mb-lg-5">
+                                                    Make yours merories last for ever
+                                                </p>
+                                            </li>
+                                            <li data-carousel-layer="fade-start">
+                                                <a  href="/AllDominoTables.html" class="btn btn-white btn-lg btn-hover-text mb-2 me-2">
+                                                    <span class="btn-hover-label label-default">View Collection</span>
+                                                    <span class="btn-hover-label label-hover">View Collection</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--:Slide-->
+                        <div class="swiper-slide" >
+                            <div class="bg-dark position-absolute start-0 top-0 w-100 h-100 opacity-25"></div>
+                            <!--:container-->
+                            <div class="container h-100 text-white position-relative z-index-1">
+                                <div class="row d-flex align-items-center h-100">
+                                    <div class="col-xl-10 mx-auto text-center">
+                                        <!--:slider layers-->
+                                        <ul class="carousel-layers list-unstyled mb-0 pt-lg-9">
+                                            <li data-carousel-layer="fade-start">
+                                                <h2 class="display-1 mb-3">
+                                                    Plastic Rope Armchair
+                                                </h2>
+                                            </li>
+                                            <li data-carousel-layer="fade-end">
+                                                <p class="lead mb-4 mb-lg-5">
+                                                    Relax like you deserve
+                                                </p>
+                                            </li>
+                                            <li data-carousel-layer="fade-start">
+                                                <a href="/ArmChair.html" class="btn btn-white btn-lg btn-hover-text mb-2 me-2">
+                                                    <span class="btn-hover-label label-default">View Collection</span>
+                                                    <span class="btn-hover-label label-hover">View Collection</span>
+                                                </a>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                   
+                    <!--:Add arrows-->
+                    <div
+                        class="swiper-button-prev swiperClassic-button-prev width-2x height-2x bg-transparent text-white">
+                    </div>
+                    <div
+                        class="swiper-button-next swiperClassic-button-next width-2x height-2x bg-transparent text-white">
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white position-relative overflow-hidden">
+                <div class="container pt-7 pt-lg-12 position-relative">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 border-end-md border-light text-center mb-7 mb-md-0">
+                            <div class="mb-3">
+                                <i class="bx bx-car fs-1"></i>
+                            </div>
+                            <h6 class="mb-0">Fast Delivery</h6>
+                        </div>
+                        <div class="col-md-4 border-end-md border-light text-center mb-7 mb-md-0">
+                            <div class="mb-3">
+                                <i class="bx bx-purchase-tag fs-1"></i>
+                            </div>
+                            <h6 class="mb-0">100% Handpicked</h6>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="mb-3">
+                                <i class="bx bx-package fs-1"></i>
+                            </div>
+                            <h6 class="mb-0">Assured Quality</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--End section-->
+
+
+            <section class="position-relative bg-white">
+                <div class="container-fluid px-lg-4 position-relative pt-7 pt-lg-12">
+                    <div class="row justify-content-around">
+                        <div class=" mb-3 mb-md-0">
+                          
+                            <p class="text-center" >New Arrivals</p>
+                               
+                      </div>
+                        <div class="col-lg-5 col-md-6 mb-3 mb-md-0">
+                            <div class="card border-0 card-hover overflow-hidden">
+                                <div class="overflow-hidden position-relative">
+                                    <img src="/assets/img/Custom_black_img.png" class="img-fluid img-zoom" alt="">
+                                </div>
+                               
+                            </div>
+                        </div>
+                       
+                        <div class="col-lg-4 col-md-6  ">
+                            <div class="card border-0 card-hover overflow-hidden">
+                                <div class="overflow-hidden position-relative">
+                                    <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/s2_orig.png" class="img-fluid img-zoom" alt="">
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section class="overflow-hidden bg-white" id="products">
+                <div class="container py-9 py-lg-11">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 mx-auto text-center">
+                            <h2 class="mb-5 display-4">
+                                Featured Products
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <!--Card-product-->
+                            <div class="card hover-shadow-lg overflow-hidden hover-lift-lg card-product border-0">
+                                <div class="card-product-header px-5 p-4 d-block overflow-hidden">
+                                    <!--Product image-->
+                                    <a target="_blank" href="http://www.gdomino.com/uploads/5/8/0/1/58011957/51_orig.jpg">
+                                        <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/51_orig.jpg" class="img-fluid" alt="Product">
+                                    </a>
+                                </div>
+                                <div class="card-product-body px-4 pb-4 text-center">
+                                    <a href="/DominoTable.html" class="h6 d-block position-relative mb-2 text-dark"> #50</a>
+                                    <div class="card-product-body-ovelray">
+                                        <!--Price-->
+                                        <span class="card-product-price">
+                                            <span>$280</span>
+                                        </span>
+                                        <!--Action-->
+                                        <span class="card-product-view-btn">
+                                            <a href="/DominoTable.html" class="link-underline mb-1 fw-semibold text-dark">View
+                                                Details</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Card product end-->
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <!--Card-product-->
+                            <div class="card hover-shadow-lg overflow-hidden hover-lift-lg card-product border-0">
+                                <div class="card-product-header px-5 p-4 d-block overflow-hidden">
+                                    <a target="_blank" href="http://www.gdomino.com/uploads/5/8/0/1/58011957/55_1_orig.jpg">
+                                        <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/55_1_orig.jpg" class="img-fluid" alt="Product">
+                                    </a>
+                                        <!--Product Label-->
+                                        <span
+                                        class="badge rounded-pill bg-primary position-absolute start-0 top-0 mt-4 ms-4">Best Seller</span>
+                                </div>
+                                <div class="card-product-body px-4 pb-4 text-center">
+                                    <a href="/DominoTable.html" class="h6 d-block position-relative mb-2 text-dark">#52</a>
+                                    <div class="card-product-body-ovelray">
+                                        <span class="card-product-price">
+                                            <span>$280</span> 
+                                        </span>
+                                        <span class="card-product-view-btn">
+                                            <a href="/DominoTable.html" class="link-underline mb-1 fw-semibold text-dark">View
+                                                Details</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Card product end-->
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <!--Card-product-->
+                            <div class="card hover-shadow-lg overflow-hidden hover-lift-lg card-product border-0">
+                                <div class="card-product-header px-5 p-4 d-block overflow-hidden  position-relative">
+                                    <a target="_blank" href="http://www.gdomino.com/uploads/5/8/0/1/58011957/30_orig.png">
+                                        <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/30_orig.png" class="img-fluid" alt="Product">
+                                    </a>
+
+                                 <!--Product Label-->
+                                 <span
+                                 class="badge rounded-pill bg-success position-absolute start-0 top-0 mt-4 ms-4">New</span>
+                                </div>
+                                <div class="card-product-body px-4 pb-4 text-center">
+                                    <a href="/DominoTable.html" class="h6 d-block position-relative mb-2 text-dark">#30</a>
+                                    <div class="card-product-body-ovelray">
+                                        <span class="card-product-price">
+                                            <span>$280</span> 
+                                        </span>
+                                        <span class="card-product-view-btn">
+                                            <a href="/DominoTable.html" class="link-underline mb-1 fw-semibold text-dark">View
+                                                Details</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--:/card product end-->
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <!--Card-product-->
+                            <div class="card hover-shadow-lg overflow-hidden hover-lift-lg card-product border-0">
+                                <div class="card-product-header px-5 p-4 d-block overflow-hidden">
+                                    <a target="_blank" href="http://www.gdomino.com/uploads/5/8/0/1/58011957/27_orig.png">
+                                        <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/27_orig.png" class="img-fluid" alt="Product">
+                                    </a>
+                                </div>
+                                <div class="card-product-body px-4 pb-4 text-center">
+                                    <a href="/DominoTable.html" class="h6 d-block position-relative mb-2 text-dark">#27</a>
+                                    <div class="card-product-body-ovelray">
+                                        <span class="card-product-price">
+                                            <span>$280</span>
+                                        </span>
+                                        <span class="card-product-view-btn">
+                                            <a href="/DominoTable.html" class="link-underline mb-1 fw-semibold text-dark">View
+                                                Details</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Card product end-->
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <!--Card-product-->
+                            <div class="card hover-shadow-lg overflow-hidden hover-lift-lg card-product border-0">
+                                <div class="card-product-header px-5 p-4 d-block overflow-hidden">
+                                    <a target="_blank" href="http://www.gdomino.com/uploads/5/8/0/1/58011957/39_orig.jpg">
+                                        <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/39_orig.jpg" class="img-fluid" alt="Product">
+                                    </a>
+                                </div>
+                                <div class="card-product-body px-4 pb-4 text-center">
+                                    <a href="/DominoTable.html" class="h6 d-block position-relative mb-2 text-dark">#39</a>
+                                    <div class="card-product-body-ovelray">
+                                        <span class="card-product-price">
+                                            <span>$280</span> 
+                                        </span>
+                                        <span class="card-product-view-btn">
+                                            <a href="/DominoTable.html" class="link-underline mb-1 fw-semibold text-dark">View
+                                                Details</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Card product end-->
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <!--Card-product-->
+                            <div class="card hover-shadow-lg overflow-hidden hover-lift-lg card-product border-0">
+                                <div class="card-product-header px-5 p-4 d-block overflow-hidden">
+                                    <a target="_blank" href="http://www.gdomino.com/uploads/5/8/0/1/58011957/47_orig.jpg">
+                                        <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/47_orig.jpg" class="img-fluid" alt="Product">
+                                    </a>
+                                    <!--Product Label-->
+                                    <span
+                                        class="badge rounded-pill bg-danger position-absolute start-0 top-0 mt-4 ms-4">-5%</span>
+                                </div>
+                                <div class="card-product-body px-4 pb-4 text-center">
+                                    <a href="/DominoTable.html" class="h6 d-block position-relative mb-2 text-dark">#47</a>
+                                    <div class="card-product-body-ovelray">
+                                        <span class="card-product-price">
+                                            <span>$266</span> 
+                                        </span>
+                                        <span class="card-product-view-btn">
+                                            <a href="/DominoTable.html" class="link-underline mb-1 fw-semibold text-dark">View
+                                                Details</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Card product end-->
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <!--Card-product-->
+                            <div class="card hover-shadow-lg overflow-hidden hover-lift-lg card-product border-0">
+                                <div class="card-product-header px-5 p-4 d-block overflow-hidden">
+                                    <a target="_blank" href="http://www.gdomino.com/uploads/5/8/0/1/58011957/48_orig.jpg">
+                                        <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/48_orig.jpg" class="img-fluid" alt="Product">
+                                    </a>
+                                    <!--Product Label-->
+                                    <span
+                                        class="badge rounded-pill bg-danger position-absolute start-0 top-0 mt-4 ms-4">-5%</span>
+                                </div>
+                                <div class="card-product-body px-4 pb-4 text-center">
+                                    <a href="/DominoTable.html" class="h6 d-block position-relative mb-2 text-dark">#48</a>
+                                    <div class="card-product-body-ovelray">
+                                        <span class="card-product-price">
+                                            <span>$266</span>
+                                        </span>
+                                        <span class="card-product-view-btn">
+                                            <a href="/DominoTable.html" class="link-underline mb-1 fw-semibold text-dark">View
+                                                Details</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Card product end-->
+                        </div>
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <!--Card-product-->
+                            <div class="card hover-shadow-lg overflow-hidden hover-lift-lg card-product border-0">
+                                <div class="card-product-header px-5 p-4 d-block overflow-hidden">
+                                    <a target="_blank" href="http://www.gdomino.com/uploads/5/8/0/1/58011957/38_orig.jpg">
+                                        <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/38_orig.jpg" class="img-fluid" alt="Product">
+                                    </a>
+                                    <!--Product Label-->
+                                    <span
+                                        class="badge rounded-pill bg-success position-absolute start-0 top-0 mt-4 ms-4">New</span>
+                                </div>
+                                <div class="card-product-body px-4 pb-4 text-center">
+                                    <a href="/DominoTable.html" class="h6 d-block position-relative mb-2 text-dark">#38</a>
+                                    <div class="card-product-body-ovelray">
+                                        <span class="card-product-price">
+                                            <span>$280</span>
+                                        </span>
+                                        <span class="card-product-view-btn">
+                                            <a href="/DominoTable.html" class="link-underline mb-1 fw-semibold text-dark">View
+                                                Details</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Card product end-->
+                        </div>
+                    </div>
+                    <div class="text-center pt-2">
+                        <a href="/AllDominoTables.html" class="btn btn-dark btn-lg btn-hover-text mb-2 me-2">
+                            <span class="btn-hover-label label-default">All featured products</span>
+                            <span class="btn-hover-label label-hover">All featured products</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- OFFER SECTION BEGIN -->
+            <section class="position-relative overflow-hidden bg-white">
+                <div class="position-absolute w-100 w-lg-60 start-0 top-0 h-100 bg-tint-primary w-100 rounded-end-lg-4">
+                </div>
+                <div class="container py-9 py-lg-11 position-relative">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-xl-5 ms-md-auto order-last order-md-1">
+
+                            <span class="d-block mb-2"><i class="bx bx-stopwatch fs-5 me-1"></i> Limited time
+                                offer</span>
+                            <div class="countdown-timer py-3 mb-3 d-flex flex-wrap align-items-center"></div>
+                            <h2 class="display-1 mb-4">
+                                10% OFF
+                            </h2>
+                            <h5 class="mb-5">On orders of more than three armchairs!!</h5>
+                            <a href="/ArmChair.html" class="btn btn-dark btn-lg btn-hover-text mb-2 me-2">
+                                <span class="btn-hover-label label-default">Explore products</span>
+                                <span class="btn-hover-label label-hover">Explore products</span>
+                            </a>
+                        </div>
+                        <div class="col-md-6 ms-auto mb-5 mb-md-0 order-1 order-md-last">
+                            <div class="position-relative pe-12 pb-12">
+                                <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/published/s2.png?1535730487"
+                                    class="img-fluid position-absolute w-50 end-0 bottom-0 rounded-4" alt="">
+                                <img src="http://www.gdomino.com/uploads/5/8/0/1/58011957/s3_orig.png" class="img-fluid rounded-4" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="position-relative bg-white">
+                <div class="container py-9 py-lg-11">
+                    <div class="row justify-content-between">
+
+                        <!--Nesletter col-->
+                        <div class="col-lg-10 col-xl-9 mx-auto">
+                            <h2 class="mb-4 display-4 mb-lg-5 text-center">Stay up to date with all our products news and
+                                exclusive offers</h2>
+                            <form class="needs-validation w-lg-75 mx-auto" action="mailto:extremestreamshop@gmail.com" novalidate>
+                                <div class="row g-md-1 mb-4">
+                                    <div class="col-md mb-2 mb-md-0">
+                                        <input type="email"
+                                            class="form-control shadow-none border-top-0 border-start-0 border-end-0 rounded-0 px-0 form-control-lg"
+                                            required placeholder="Your email address">
+                                        <div class="invalid-feedback">
+                                            Please enter a valid email address.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-auto col-12">
+                                        <button type="submit" class="btn btn-lg btn-hover-text btn-secondary w-100">
+                                            <span class="btn-hover-label label-default"> Subscribe</span>
+                                            <span class="btn-hover-label label-hover"> Subscribe</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" required id="newsletterCheck">
+                                    <label class="form-label small text-secondary" for="newsletterCheck">I accept the <a
+                                            href="#" class="text-dark link-decoration">Terms</a> and <a href="#"
+                                            class="text-dark link-decoration">conditions</a> and the <a href="#"
+                                            class="text-dark link-decoration">data protection guidelines.</a></label>
+
+                                    <div class="invalid-feedback">
+                                        You must agree before subscribe.
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End col-->
+                    </div>
+                </div>
+                <!--OFFER SECTION END-->
+            </section>
+        </main>
+
+
+        <footer class="position-relative bg-dark text-white overflow-hidden">
+            <div class="container pt-9 pt-lg-11 pb-6 position-relative">
+                <div class="row">
+                    <div class="col-6 col-lg-3 col-xl-2 order-lg-2 ms-lg-auto mb-6">
+                        <h6 class="mb-4">Account</h6>
+                        <!-- nav -->
+                        <ul class="nav flex-column mb-0">
+                            <li class="nav-item"><a class="nav-link" href="#offcanvasCart" data-bs-toggle="offcanvas">Placing an order</a></li>
+                        </ul>
+                        <!-- /.nav -->
+                    </div>
+
+                    <div class="col-6 col-lg-3 col-xl-2 order-lg-3 ms-lg-auto mb-6">
+                        <h6 class="mb-4">Company</h6>
+
+                        <ul class="nav flex-column mb-0">
+                            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                           
+                            <li class="nav-item"><a class="nav-link" href="#offcanvasCart" data-bs-toggle="offcanvas">Contact</a></li>
+                            <li class="nav-item d-flex justify-content-between align-items-center">
+                                <a class="nav-link" href="#!">Help center
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /.nav -->
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 col-xl-2 ms-lg-auto order-lg-4 mb-6">
+                        <h6 class="mb-4">Top Products</h6>
+                        <ul class="nav flex-column mb-0">
+                            <li class="nav-item"><a class="nav-link" href="/DominoTable.html">Domino Table</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/ArmChair.html">Double tube plastic rope armchairs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/ArmChair.html">Single tube plastic rope armchairs</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="#!">Plastic rope table</a></li> -->
+                           
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 order-lg-1 mb-6">
+                        <div class="d-flex align-items-md-stretch flex-column h-100">
+                            <div class="flex-grow-1 d-flex flex-column">
+                                <small class="d-block mb-3">
+                                    Follow US!!
+                                </small>
+                                <div class="mb-4">
+                                    <a href="#!" class="btn btn-outline-white btn-rise">
+                                        <div class="btn-rise-bg bg-white"></div>
+                                        <div class="btn-rise-text align-items-center">
+                                            <i class="bx bxl-instagram me-2 "> Follow us on Instagram </i>    
+                                       </div>
+                                    </a>
+                                    <a href="#!" class="btn btn-outline-white btn-rise">
+                                        <div class="btn-rise-bg bg-white"></div>
+                                        <div class="btn-rise-text align-items-center">                                        
+                                            <i class="bx bxl-facebook me-2 "> Follow us on Facebook</i>                                  
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Copyright -->
+                            <p class="small text-muted mb-0">© SiSmo.LLC all rights reserve</p>
+                            <!-- End Copyright -->
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-transparent border-top border-white opacity-25 mb-6 mt-0">
+                <div class="row align-items-md-center">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <!--:payment options-->
+                        <div class="d-flex justify-content-start">
+
+                            <div class="d-block me-2 my-1">
+                                <img src="/assets/img/payment/american_express.svg" alt="">
+                            </div>
+                            <div class="d-block me-2 my-1">
+                                <img src="/assets/img/payment/paypal.svg" alt="paypal">
+                            </div>
+                            <div class="d-block me-2 my-1">
+                                <img src="/assets/img/payment/rupay.svg" alt="rupay">
+                            </div>
+                            <div class="d-block my-1">
+                                <img src="/assets/img/payment/visa.svg" alt="visa">
+                            </div>
+                        </div>
+                        <!--:/payment options-->
+                    </div>
+
+                    <div class="col-md-2 col-xl-4 mb-3 mb-md-0">
+                        <!-- Links -->
+                        <ul class="list-inline small mb-0">
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="http://instagram.com/SismoStore">
+                                    <i class="bx bxl-instagram fs-4"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="http://facebook.com/SismoStore">
+                                    <i class="bx bxl-facebook fs-4"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="http://twitter.com/SismoStore">
+                                    <i class="bx bxl-twitter fs-4"></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <!-- End Links -->
+                    </div>
+
+
+                    <div class="col-md-6 col-xl-4 text-md-end">
+                        <!-- Links -->
+                        <ul class="list-inline small mb-0">
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="#!">Privacy &amp; Policy</a>
+                            </li>
+                            <li class="list-inline-item me-3">
+                                <a class="d-block" href="#!">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                        <!-- End Links -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/footer-->
+
+        <!-- :Back to top -->
+        <a href="#top"
+            class="position-fixed toTop d-none d-sm-flex btn btn-light rounded-circle p-0 flex-center width-4x height-4x z-index-fixed end-0 bottom-0 mb-3 me-3">
+            <i class="bx bxs-up-arrow align-middle lh-1"></i>
+        </a>
+
+         <!-- scripts -->
+         <script src="/assets/js/theme.bundle.js"></script>
+         <script src="/assets/vendor/node_modules/js/gsap.min.js"></script>
+         
+
+
+        <!--Page Countdown script-->
+        <script src="/assets/vendor/node_modules/js/jquery.min.js"></script>
+        <script src="/assets/vendor/node_modules/js/jquery.countdown.min.js"></script>
+        <script src="/assets/vendor/node_modules/js/swiper-bundle.min.js"></script>
+        <script>
+            //swiper
+            //Classic
+            var swiperClassic = new Swiper(".swiper-classic", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                effect: 'fade',
+                speed: 800,
+                loop: true,
+                autoplay: {
+                    delay: 2500
+                },
+                pagination: {
+                    el: ".swiperClassic-pagination",
+                    type: "fraction"
+                },
+                navigation: {
+                    nextEl: ".swiperClassic-button-next",
+                    prevEl: ".swiperClassic-button-prev"
+                }
+            });
+
+            function get1dayFromNow() {
+                return new Date(new Date().valueOf() + 1 * 24 * 60 * 60 * 1000);
+            }
+
+            var $clock = $('.countdown-timer');
+
+            $clock.countdown(get1dayFromNow(), function (event) {
+                $(this).html(event.strftime(
+                    '<div class="d-flex flex-column px-2 width-7x"><h2 class="mb-0 h4">%H</h2><span class="small text-muted">Hours</span></div><div class="d-flex flex-column px-2 width-7x"><h2 class="mb-0 h4">%M</h2><span class="small text-muted">Minutes</span></div><div class="d-flex flex-column px-2 width-7x"><h2 class="mb-0 h4">%S</h2><span class="small text-muted">Seconds</span></div>'
+                    ));
+            });
+
+        </script>
+    </body>
+
+</html>
